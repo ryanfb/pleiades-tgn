@@ -22,3 +22,6 @@ pleiades-names-latest.csv:
 
 pleiades-tgn.csv: pleiades-tgn.rb labels.nt geometries.nt pleiades-places-latest.csv pleiades-names-latest.csv
 	./pleiades-tgn.rb labels.nt geometries.nt pleiades-places-latest.csv pleiades-names-latest.csv | sort -u > $@
+
+clean:
+	rm -vf pleiades-*-latest.csv *.nt full.zip
