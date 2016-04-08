@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
+
 require 'json'
 require 'csv'
 
@@ -42,13 +45,18 @@ end
 $stderr.puts pleiades_names.keys.length
 
 tgn_labels = {}
+tgn_first_label = {}
 
 $stderr.puts "Parsing TGN labels..."
 File.open(tgn_labels_nt).each do |line|
   subject, predicate, object = line.split(' ')
   tgn_toponym = object[/"(.+)"/,1]
-  tgn_labels[tgn_toponym] ||= []
-  tgn_labels[tgn_toponym] << subject
+  unless tgn_toponym.nil?
+    tgn_toponym.gsub!(/\\u(.{4})/) {|m| [$1.to_i(16)].pack('U')}
+    tgn_labels[tgn_toponym] ||= []
+    tgn_labels[tgn_toponym] << subject
+    tgn_first_label[subject] ||= tgn_toponym
+  end
 end
 $stderr.puts tgn_labels.keys.length
 
@@ -77,7 +85,7 @@ pleiades_names.each do |pleiades_name, pleiades_ids|
           pleiades_ids.each do |pleiades_id|
             unless places[pleiades_id].nil? || geometry.nil?
               if haversine_distance(geometry[:latitude], geometry[:longitude], places[pleiades_id]["reprLat"].to_f, places[pleiades_id]["reprLong"].to_f) <= distance_threshold
-                puts "#{tgn_id.tr('<>','')},http://pleiades.stoa.org/places/#{pleiades_id}" # \t#{pleiades_name}"
+                puts [tgn_id.tr('<>',''),"http://pleiades.stoa.org/places/#{pleiades_id}",tgn_first_label[tgn_id]].join(',')
               end
             end
           end

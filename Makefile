@@ -1,3 +1,5 @@
+SHELL:=/bin/bash
+
 all: pleiades-tgn.csv
 
 full.zip:
@@ -21,7 +23,7 @@ pleiades-names-latest.csv:
 	gunzip $@.gz
 
 pleiades-tgn.csv: pleiades-tgn.rb labels.nt geometries.nt pleiades-places-latest.csv pleiades-names-latest.csv
-	./pleiades-tgn.rb labels.nt geometries.nt pleiades-places-latest.csv pleiades-names-latest.csv | sort -u > $@
+	cat <(echo 'tgn_uri,pleiades_uri,tgn_label') <(./pleiades-tgn.rb labels.nt geometries.nt pleiades-places-latest.csv pleiades-names-latest.csv | sort -u) > $@
 
 clean:
 	rm -vf pleiades-*-latest.csv *.nt full.zip
