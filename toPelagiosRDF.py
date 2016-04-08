@@ -24,7 +24,7 @@ with open('pleiades-tgn.csv') as f:
 
     output.write('<' + tgn_uri + '> a lawd:Place ;\n')
     output.write('  rdfs:label "' + tgn_label + '" ;\n')
-    output.write('  skos:exactMatch <' + pleiades_uri + '> ;\n')
+    output.write('  skos:closeMatch <' + pleiades_uri + '> ;\n')
     output.write('  .\n\n')
 
   print('Converted ' +  str(cnt) + ' records')
