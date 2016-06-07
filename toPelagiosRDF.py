@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import csv
 
 with open('pleiades-tgn.csv') as f:

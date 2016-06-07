@@ -1,6 +1,6 @@
 SHELL:=/bin/bash
 
-all: pleiades-tgn.csv
+all: pleiades-tgn.csv pleiades-tgn.ttl
 
 full.zip:
 	wget http://vocab.getty.edu/dataset/tgn/full.zip
@@ -24,6 +24,9 @@ pleiades-names-latest.csv:
 
 pleiades-tgn.csv: pleiades-tgn.rb labels.nt geometries.nt pleiades-places-latest.csv pleiades-names-latest.csv
 	cat <(echo 'tgn_uri,pleiades_uri,tgn_label') <(./pleiades-tgn.rb labels.nt geometries.nt pleiades-places-latest.csv pleiades-names-latest.csv | sort -u) > $@
+
+pleiades-tgn.ttl: pleiades-tgn.csv
+	./toPelagiosRDF.py
 
 clean:
 	rm -vf pleiades-*-latest.csv *.nt full.zip
