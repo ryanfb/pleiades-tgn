@@ -4,4 +4,7 @@ rvm:
 sudo: false
 before_script:
   - gem install csvlint
-script: csvlint pleiades-tgn.csv
+  - npm install -g turtle-validator
+script:
+  - csvlint pleiades-tgn.csv
+  - ttl pleiades-tgn.ttl
