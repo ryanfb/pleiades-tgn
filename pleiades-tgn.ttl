@@ -56,6 +56,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/108750> ;
   .
 
+<http://vocab.getty.edu/tgn/1003464> a lawd:Place ;
+  rdfs:label "Isernia" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/432652> ;
+  .
+
 <http://vocab.getty.edu/tgn/1003883> a lawd:Place ;
   rdfs:label "Óbuda" ;
   skos:closeMatch <http://pleiades.stoa.org/places/197130> ;
@@ -81,14 +86,19 @@
   skos:closeMatch <http://pleiades.stoa.org/places/462199> ;
   .
 
+<http://vocab.getty.edu/tgn/1006326> a lawd:Place ;
+  rdfs:label "Asinara" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/471943> ;
+  .
+
+<http://vocab.getty.edu/tgn/1006590> a lawd:Place ;
+  rdfs:label "Brač" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/197178> ;
+  .
+
 <http://vocab.getty.edu/tgn/1007085> a lawd:Place ;
   rdfs:label "Favignana" ;
   skos:closeMatch <http://pleiades.stoa.org/places/462084> ;
-  .
-
-<http://vocab.getty.edu/tgn/1007100> a lawd:Place ;
-  rdfs:label "Filicudi" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/462425> ;
   .
 
 <http://vocab.getty.edu/tgn/1007154> a lawd:Place ;
@@ -109,6 +119,11 @@
 <http://vocab.getty.edu/tgn/1007519> a lawd:Place ;
   rdfs:label "Ithaca" ;
   skos:closeMatch <http://pleiades.stoa.org/places/530906> ;
+  .
+
+<http://vocab.getty.edu/tgn/1007580> a lawd:Place ;
+  rdfs:label "Thermiá" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/570403> ;
   .
 
 <http://vocab.getty.edu/tgn/1007739> a lawd:Place ;
@@ -156,11 +171,6 @@
   skos:closeMatch <http://pleiades.stoa.org/places/432980> ;
   .
 
-<http://vocab.getty.edu/tgn/1008515> a lawd:Place ;
-  rdfs:label "Panarea" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/452324> ;
-  .
-
 <http://vocab.getty.edu/tgn/1008555> a lawd:Place ;
   rdfs:label "Paxoí" ;
   skos:closeMatch <http://pleiades.stoa.org/places/531049> ;
@@ -169,11 +179,6 @@
 <http://vocab.getty.edu/tgn/1008597> a lawd:Place ;
   rdfs:label "Pianosa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/403255> ;
-  .
-
-<http://vocab.getty.edu/tgn/1008928> a lawd:Place ;
-  rdfs:label "Salina" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/462186> ;
   .
 
 <http://vocab.getty.edu/tgn/1008943> a lawd:Place ;
@@ -239,6 +244,11 @@
 <http://vocab.getty.edu/tgn/1010516> a lawd:Place ;
   rdfs:label "Lilibeo" ;
   skos:closeMatch <http://pleiades.stoa.org/places/462281> ;
+  .
+
+<http://vocab.getty.edu/tgn/1011283> a lawd:Place ;
+  rdfs:label "Matapan" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/570702> ;
   .
 
 <http://vocab.getty.edu/tgn/1011873> a lawd:Place ;
@@ -324,6 +334,11 @@
 <http://vocab.getty.edu/tgn/1026963> a lawd:Place ;
   rdfs:label "Svishtov" ;
   skos:closeMatch <http://pleiades.stoa.org/places/216899> ;
+  .
+
+<http://vocab.getty.edu/tgn/1027597> a lawd:Place ;
+  rdfs:label "Trenčín" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/128442> ;
   .
 
 <http://vocab.getty.edu/tgn/1028667> a lawd:Place ;
@@ -576,11 +591,6 @@
   skos:closeMatch <http://pleiades.stoa.org/places/540599> ;
   .
 
-<http://vocab.getty.edu/tgn/1041956> a lawd:Place ;
-  rdfs:label "Akharnai" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/579842> ;
-  .
-
 <http://vocab.getty.edu/tgn/1041968> a lawd:Place ;
   rdfs:label "Andimákhia" ;
   skos:closeMatch <http://pleiades.stoa.org/places/599495> ;
@@ -626,6 +636,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/530974> ;
   .
 
+<http://vocab.getty.edu/tgn/1042118> a lawd:Place ;
+  rdfs:label "Khóra" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/599808> ;
+  .
+
 <http://vocab.getty.edu/tgn/1042133> a lawd:Place ;
   rdfs:label "Methóni" ;
   skos:closeMatch <http://pleiades.stoa.org/places/570483> ;
@@ -669,6 +684,11 @@
 <http://vocab.getty.edu/tgn/1043354> a lawd:Place ;
   rdfs:label "Bacoli" ;
   skos:closeMatch <http://pleiades.stoa.org/places/432720> ;
+  .
+
+<http://vocab.getty.edu/tgn/1043398> a lawd:Place ;
+  rdfs:label "Banzi" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/442496> ;
   .
 
 <http://vocab.getty.edu/tgn/1043472> a lawd:Place ;
@@ -721,6 +741,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/462084> ;
   .
 
+<http://vocab.getty.edu/tgn/1044659> a lawd:Place ;
+  rdfs:label "Fordongianus" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/471947> ;
+  .
+
 <http://vocab.getty.edu/tgn/1045007> a lawd:Place ;
   rdfs:label "Lampedusa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/1094> ;
@@ -749,6 +774,11 @@
 <http://vocab.getty.edu/tgn/1045100> a lawd:Place ;
   rdfs:label "Linosa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/772> ;
+  .
+
+<http://vocab.getty.edu/tgn/1045117> a lawd:Place ;
+  rdfs:label "Locri" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/452369> ;
   .
 
 <http://vocab.getty.edu/tgn/1045284> a lawd:Place ;
@@ -791,6 +821,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/155765601> ;
   .
 
+<http://vocab.getty.edu/tgn/1046080> a lawd:Place ;
+  rdfs:label "Pompei" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/433032> ;
+  .
+
 <http://vocab.getty.edu/tgn/1046252> a lawd:Place ;
   rdfs:label "Recco" ;
   skos:closeMatch <http://pleiades.stoa.org/places/383758> ;
@@ -809,6 +844,11 @@
 <http://vocab.getty.edu/tgn/1047264> a lawd:Place ;
   rdfs:label "Ustica" ;
   skos:closeMatch <http://pleiades.stoa.org/places/1361> ;
+  .
+
+<http://vocab.getty.edu/tgn/1047280> a lawd:Place ;
+  rdfs:label "Valenza" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/383651> ;
   .
 
 <http://vocab.getty.edu/tgn/1047351> a lawd:Place ;
@@ -901,6 +941,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/187292> ;
   .
 
+<http://vocab.getty.edu/tgn/1064896> a lawd:Place ;
+  rdfs:label "Ajdovščina" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/197276> ;
+  .
+
 <http://vocab.getty.edu/tgn/1064959> a lawd:Place ;
   rdfs:label "Cavtat" ;
   skos:closeMatch <http://pleiades.stoa.org/places/197263> ;
@@ -986,11 +1031,6 @@
   skos:closeMatch <http://pleiades.stoa.org/places/678109> ;
   .
 
-<http://vocab.getty.edu/tgn/1079507> a lawd:Place ;
-  rdfs:label "Dora" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/678121> ;
-  .
-
 <http://vocab.getty.edu/tgn/1079518> a lawd:Place ;
   rdfs:label "Gezer" ;
   skos:closeMatch <http://pleiades.stoa.org/places/687904> ;
@@ -1074,11 +1114,6 @@
 <http://vocab.getty.edu/tgn/1086357> a lawd:Place ;
   rdfs:label "Giresun" ;
   skos:closeMatch <http://pleiades.stoa.org/places/857185> ;
-  .
-
-<http://vocab.getty.edu/tgn/1086364> a lawd:Place ;
-  rdfs:label "Hisarönü" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/845084> ;
   .
 
 <http://vocab.getty.edu/tgn/1086500> a lawd:Place ;
@@ -1179,11 +1214,6 @@
 <http://vocab.getty.edu/tgn/1095010> a lawd:Place ;
   rdfs:label "Thala" ;
   skos:closeMatch <http://pleiades.stoa.org/places/324826> ;
-  .
-
-<http://vocab.getty.edu/tgn/1095164> a lawd:Place ;
-  rdfs:label "Atfîḥ" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/736889> ;
   .
 
 <http://vocab.getty.edu/tgn/1095259> a lawd:Place ;
@@ -1296,6 +1326,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/687839> ;
   .
 
+<http://vocab.getty.edu/tgn/1099934> a lawd:Place ;
+  rdfs:label "Hephaisteion" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/558659669> ;
+  .
+
 <http://vocab.getty.edu/tgn/1100514> a lawd:Place ;
   rdfs:label "Ṣaqqâra" ;
   skos:closeMatch <http://pleiades.stoa.org/places/796289136> ;
@@ -1319,6 +1354,11 @@
 <http://vocab.getty.edu/tgn/1100665> a lawd:Place ;
   rdfs:label "Mendes" ;
   skos:closeMatch <http://pleiades.stoa.org/places/727156> ;
+  .
+
+<http://vocab.getty.edu/tgn/1103555> a lawd:Place ;
+  rdfs:label "Psilorítis" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/589816> ;
   .
 
 <http://vocab.getty.edu/tgn/1106022> a lawd:Place ;
@@ -1356,6 +1396,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/462214> ;
   .
 
+<http://vocab.getty.edu/tgn/1124605> a lawd:Place ;
+  rdfs:label "Helmand" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/59810> ;
+  .
+
 <http://vocab.getty.edu/tgn/1125500> a lawd:Place ;
   rdfs:label "Kelkit" ;
   skos:closeMatch <http://pleiades.stoa.org/places/857217> ;
@@ -1379,6 +1424,11 @@
 <http://vocab.getty.edu/tgn/1131153> a lawd:Place ;
   rdfs:label "Tusa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/462225> ;
+  .
+
+<http://vocab.getty.edu/tgn/1131409> a lawd:Place ;
+  rdfs:label "Velino" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/413047> ;
   .
 
 <http://vocab.getty.edu/tgn/1131789> a lawd:Place ;
@@ -1661,6 +1711,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/413132> ;
   .
 
+<http://vocab.getty.edu/tgn/5002435> a lawd:Place ;
+  rdfs:label "Acquarossa" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/412987> ;
+  .
+
 <http://vocab.getty.edu/tgn/5002440> a lawd:Place ;
   rdfs:label "Blera" ;
   skos:closeMatch <http://pleiades.stoa.org/places/413054> ;
@@ -1816,6 +1871,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/491678> ;
   .
 
+<http://vocab.getty.edu/tgn/5004264> a lawd:Place ;
+  rdfs:label "Lendas" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/589901> ;
+  .
+
 <http://vocab.getty.edu/tgn/5004266> a lawd:Place ;
   rdfs:label "Praisos" ;
   skos:closeMatch <http://pleiades.stoa.org/places/590011> ;
@@ -1896,11 +1956,6 @@
   skos:closeMatch <http://pleiades.stoa.org/places/433133> ;
   .
 
-<http://vocab.getty.edu/tgn/5004367> a lawd:Place ;
-  rdfs:label "Larissa" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/550683> ;
-  .
-
 <http://vocab.getty.edu/tgn/5004381> a lawd:Place ;
   rdfs:label "Kırmıtlı" ;
   skos:closeMatch <http://pleiades.stoa.org/places/658481> ;
@@ -1971,14 +2026,14 @@
   skos:closeMatch <http://pleiades.stoa.org/places/609302> ;
   .
 
+<http://vocab.getty.edu/tgn/6000332> a lawd:Place ;
+  rdfs:label "Apollonia" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/590049> ;
+  .
+
 <http://vocab.getty.edu/tgn/6000387> a lawd:Place ;
   rdfs:label "Argissa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/540659> ;
-  .
-
-<http://vocab.getty.edu/tgn/6000413> a lawd:Place ;
-  rdfs:label "Arpi" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/442476> ;
   .
 
 <http://vocab.getty.edu/tgn/6000415> a lawd:Place ;
@@ -2346,6 +2401,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/315233> ;
   .
 
+<http://vocab.getty.edu/tgn/7001022> a lawd:Place ;
+  rdfs:label "Tunis" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/315233> ;
+  .
+
 <http://vocab.getty.edu/tgn/7001024> a lawd:Place ;
   rdfs:label "Haïdra" ;
   skos:closeMatch <http://pleiades.stoa.org/places/324665> ;
@@ -2379,6 +2439,11 @@
 <http://vocab.getty.edu/tgn/7001151> a lawd:Place ;
   rdfs:label "Melilla" ;
   skos:closeMatch <http://pleiades.stoa.org/places/285512> ;
+  .
+
+<http://vocab.getty.edu/tgn/7001152> a lawd:Place ;
+  rdfs:label "Ceuta" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/275703> ;
   .
 
 <http://vocab.getty.edu/tgn/7001160> a lawd:Place ;
@@ -2434,6 +2499,11 @@
 <http://vocab.getty.edu/tgn/7001262> a lawd:Place ;
   rdfs:label "Qifṭ" ;
   skos:closeMatch <http://pleiades.stoa.org/places/786010> ;
+  .
+
+<http://vocab.getty.edu/tgn/7001266> a lawd:Place ;
+  rdfs:label "Cherchell" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/295279> ;
   .
 
 <http://vocab.getty.edu/tgn/7001267> a lawd:Place ;
@@ -2941,6 +3011,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/874438> ;
   .
 
+<http://vocab.getty.edu/tgn/7002401> a lawd:Place ;
+  rdfs:label "Boğazkale" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/283602441> ;
+  .
+
 <http://vocab.getty.edu/tgn/7002403> a lawd:Place ;
   rdfs:label "Arbela" ;
   skos:closeMatch <http://pleiades.stoa.org/places/678028> ;
@@ -3206,11 +3281,6 @@
   skos:closeMatch <http://pleiades.stoa.org/places/511379> ;
   .
 
-<http://vocab.getty.edu/tgn/7002599> a lawd:Place ;
-  rdfs:label "Marmaris" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/599888> ;
-  .
-
 <http://vocab.getty.edu/tgn/7002600> a lawd:Place ;
   rdfs:label "Al-Ḥaḍr" ;
   skos:closeMatch <http://pleiades.stoa.org/places/894004> ;
@@ -3309,6 +3379,11 @@
 <http://vocab.getty.edu/tgn/7002673> a lawd:Place ;
   rdfs:label "Samos" ;
   skos:closeMatch <http://pleiades.stoa.org/places/599926> ;
+  .
+
+<http://vocab.getty.edu/tgn/7002706> a lawd:Place ;
+  rdfs:label "Árta" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/530794> ;
   .
 
 <http://vocab.getty.edu/tgn/7002710> a lawd:Place ;
@@ -3513,6 +3588,11 @@
 
 <http://vocab.getty.edu/tgn/7003318> a lawd:Place ;
   rdfs:label "Petronell" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/128384> ;
+  .
+
+<http://vocab.getty.edu/tgn/7003318> a lawd:Place ;
+  rdfs:label "Petronell" ;
   skos:closeMatch <http://pleiades.stoa.org/places/128488> ;
   .
 
@@ -3554,6 +3634,11 @@
 <http://vocab.getty.edu/tgn/7003532> a lawd:Place ;
   rdfs:label "Bosa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/471895> ;
+  .
+
+<http://vocab.getty.edu/tgn/7003738> a lawd:Place ;
+  rdfs:label "Macomer" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/471967> ;
   .
 
 <http://vocab.getty.edu/tgn/7003746> a lawd:Place ;
@@ -3746,6 +3831,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/413014> ;
   .
 
+<http://vocab.getty.edu/tgn/7003987> a lawd:Place ;
+  rdfs:label "Fano" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/413129> ;
+  .
+
 <http://vocab.getty.edu/tgn/7003991> a lawd:Place ;
   rdfs:label "Pesaro" ;
   skos:closeMatch <http://pleiades.stoa.org/places/413256> ;
@@ -3789,6 +3879,11 @@
 <http://vocab.getty.edu/tgn/7004025> a lawd:Place ;
   rdfs:label "Ascoli" ;
   skos:closeMatch <http://pleiades.stoa.org/places/413036> ;
+  .
+
+<http://vocab.getty.edu/tgn/7004029> a lawd:Place ;
+  rdfs:label "Fermo" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/413135> ;
   .
 
 <http://vocab.getty.edu/tgn/7004050> a lawd:Place ;
@@ -3839,6 +3934,11 @@
 <http://vocab.getty.edu/tgn/7004090> a lawd:Place ;
   rdfs:label "Lecce" ;
   skos:closeMatch <http://pleiades.stoa.org/places/442642> ;
+  .
+
+<http://vocab.getty.edu/tgn/7004092> a lawd:Place ;
+  rdfs:label "Nardo" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/442688> ;
   .
 
 <http://vocab.getty.edu/tgn/7004093> a lawd:Place ;
@@ -3901,6 +4001,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/442839> ;
   .
 
+<http://vocab.getty.edu/tgn/7004138> a lawd:Place ;
+  rdfs:label "Conversano" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/442691> ;
+  .
+
 <http://vocab.getty.edu/tgn/7004141> a lawd:Place ;
   rdfs:label "Ginosa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/442598> ;
@@ -3954,6 +4059,11 @@
 <http://vocab.getty.edu/tgn/7004265> a lawd:Place ;
   rdfs:label "Sybaris" ;
   skos:closeMatch <http://pleiades.stoa.org/places/452457> ;
+  .
+
+<http://vocab.getty.edu/tgn/7004271> a lawd:Place ;
+  rdfs:label "Locri" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/452369> ;
   .
 
 <http://vocab.getty.edu/tgn/7004274> a lawd:Place ;
@@ -4266,6 +4376,16 @@
   skos:closeMatch <http://pleiades.stoa.org/places/98981> ;
   .
 
+<http://vocab.getty.edu/tgn/7005258> a lawd:Place ;
+  rdfs:label "Mona" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/89242> ;
+  .
+
+<http://vocab.getty.edu/tgn/7005260> a lawd:Place ;
+  rdfs:label "Mona" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/89242> ;
+  .
+
 <http://vocab.getty.edu/tgn/7005371> a lawd:Place ;
   rdfs:label "Savona" ;
   skos:closeMatch <http://pleiades.stoa.org/places/383770> ;
@@ -4548,7 +4668,17 @@
 
 <http://vocab.getty.edu/tgn/7006717> a lawd:Place ;
   rdfs:label "Ponza" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/364002> ;
+  .
+
+<http://vocab.getty.edu/tgn/7006717> a lawd:Place ;
+  rdfs:label "Ponza" ;
   skos:closeMatch <http://pleiades.stoa.org/places/433041> ;
+  .
+
+<http://vocab.getty.edu/tgn/7006719> a lawd:Place ;
+  rdfs:label "Ponza" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/364002> ;
   .
 
 <http://vocab.getty.edu/tgn/7006719> a lawd:Place ;
@@ -5076,6 +5206,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/265998> ;
   .
 
+<http://vocab.getty.edu/tgn/7008233> a lawd:Place ;
+  rdfs:label "Pamplona" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/246567> ;
+  .
+
 <http://vocab.getty.edu/tgn/7008237> a lawd:Place ;
   rdfs:label "Autun" ;
   skos:closeMatch <http://pleiades.stoa.org/places/177460> ;
@@ -5379,6 +5514,11 @@
 <http://vocab.getty.edu/tgn/7008676> a lawd:Place ;
   rdfs:label "Sevilla" ;
   skos:closeMatch <http://pleiades.stoa.org/places/256210> ;
+  .
+
+<http://vocab.getty.edu/tgn/7008715> a lawd:Place ;
+  rdfs:label "Tarragona" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/246349> ;
   .
 
 <http://vocab.getty.edu/tgn/7008715> a lawd:Place ;
@@ -5936,6 +6076,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/491546> ;
   .
 
+<http://vocab.getty.edu/tgn/7010736> a lawd:Place ;
+  rdfs:label "Butrint" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/530824> ;
+  .
+
 <http://vocab.getty.edu/tgn/7010744> a lawd:Place ;
   rdfs:label "Vlorë" ;
   skos:closeMatch <http://pleiades.stoa.org/places/481750> ;
@@ -6144,6 +6289,11 @@
 <http://vocab.getty.edu/tgn/7010979> a lawd:Place ;
   rdfs:label "Cale" ;
   skos:closeMatch <http://pleiades.stoa.org/places/236396> ;
+  .
+
+<http://vocab.getty.edu/tgn/7011005> a lawd:Place ;
+  rdfs:label "Santarém" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/256438> ;
   .
 
 <http://vocab.getty.edu/tgn/7011013> a lawd:Place ;
@@ -6356,6 +6506,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/540913> ;
   .
 
+<http://vocab.getty.edu/tgn/7011127> a lawd:Place ;
+  rdfs:label "Cirencester" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/79549> ;
+  .
+
 <http://vocab.getty.edu/tgn/7011128> a lawd:Place ;
   rdfs:label "Gloucester" ;
   skos:closeMatch <http://pleiades.stoa.org/places/79394> ;
@@ -6454,6 +6609,11 @@
 <http://vocab.getty.edu/tgn/7011267> a lawd:Place ;
   rdfs:label "Triánda" ;
   skos:closeMatch <http://pleiades.stoa.org/places/589815> ;
+  .
+
+<http://vocab.getty.edu/tgn/7011268> a lawd:Place ;
+  rdfs:label "Kámiros" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/589836> ;
   .
 
 <http://vocab.getty.edu/tgn/7011269> a lawd:Place ;
@@ -6591,6 +6751,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/79434> ;
   .
 
+<http://vocab.getty.edu/tgn/7011986> a lawd:Place ;
+  rdfs:label "Bosham" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/110448342> ;
+  .
+
 <http://vocab.getty.edu/tgn/7011995> a lawd:Place ;
   rdfs:label "York" ;
   skos:closeMatch <http://pleiades.stoa.org/places/89175> ;
@@ -6609,6 +6774,11 @@
 <http://vocab.getty.edu/tgn/7012041> a lawd:Place ;
   rdfs:label "Yíthion" ;
   skos:closeMatch <http://pleiades.stoa.org/places/570268> ;
+  .
+
+<http://vocab.getty.edu/tgn/7012042> a lawd:Place ;
+  rdfs:label "Elassón" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/540981> ;
   .
 
 <http://vocab.getty.edu/tgn/7012044> a lawd:Place ;
@@ -7441,6 +7611,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/305109> ;
   .
 
+<http://vocab.getty.edu/tgn/7024305> a lawd:Place ;
+  rdfs:label "Corneto" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/413332> ;
+  .
+
 <http://vocab.getty.edu/tgn/7024363> a lawd:Place ;
   rdfs:label "Minoa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/599800> ;
@@ -7861,6 +8036,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/481722> ;
   .
 
+<http://vocab.getty.edu/tgn/7032528> a lawd:Place ;
+  rdfs:label "Oricum" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/481939> ;
+  .
+
 <http://vocab.getty.edu/tgn/7032538> a lawd:Place ;
   rdfs:label "Carnuntum" ;
   skos:closeMatch <http://pleiades.stoa.org/places/128376> ;
@@ -7946,6 +8126,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/187578> ;
   .
 
+<http://vocab.getty.edu/tgn/7037787> a lawd:Place ;
+  rdfs:label "Velino" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/413047> ;
+  .
+
 <http://vocab.getty.edu/tgn/7038374> a lawd:Place ;
   rdfs:label "Torino" ;
   skos:closeMatch <http://pleiades.stoa.org/places/383580> ;
@@ -7966,9 +8151,9 @@
   skos:closeMatch <http://pleiades.stoa.org/places/472014> ;
   .
 
-<http://vocab.getty.edu/tgn/7040763> a lawd:Place ;
-  rdfs:label "Salina" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/462186> ;
+<http://vocab.getty.edu/tgn/7042168> a lawd:Place ;
+  rdfs:label "Roiate" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/689046103> ;
   .
 
 <http://vocab.getty.edu/tgn/7042544> a lawd:Place ;
@@ -8019,6 +8204,11 @@
 <http://vocab.getty.edu/tgn/7048310> a lawd:Place ;
   rdfs:label "Entella" ;
   skos:closeMatch <http://pleiades.stoa.org/places/383640> ;
+  .
+
+<http://vocab.getty.edu/tgn/7048410> a lawd:Place ;
+  rdfs:label "Chiusi" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/413096> ;
   .
 
 <http://vocab.getty.edu/tgn/7051020> a lawd:Place ;
@@ -8084,6 +8274,11 @@
 <http://vocab.getty.edu/tgn/7057573> a lawd:Place ;
   rdfs:label "Assisi" ;
   skos:closeMatch <http://pleiades.stoa.org/places/413037> ;
+  .
+
+<http://vocab.getty.edu/tgn/7057945> a lawd:Place ;
+  rdfs:label "Brindisi" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/442509> ;
   .
 
 <http://vocab.getty.edu/tgn/7058418> a lawd:Place ;
@@ -8276,6 +8471,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/501629> ;
   .
 
+<http://vocab.getty.edu/tgn/7221578> a lawd:Place ;
+  rdfs:label "Zoster" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/580140> ;
+  .
+
 <http://vocab.getty.edu/tgn/7222151> a lawd:Place ;
   rdfs:label "Midhéa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/570485> ;
@@ -8306,6 +8506,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/599974> ;
   .
 
+<http://vocab.getty.edu/tgn/7223907> a lawd:Place ;
+  rdfs:label "Thermopílai" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/541140> ;
+  .
+
 <http://vocab.getty.edu/tgn/7223983> a lawd:Place ;
   rdfs:label "Yialós" ;
   skos:closeMatch <http://pleiades.stoa.org/places/531093> ;
@@ -8326,6 +8531,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/541020> ;
   .
 
+<http://vocab.getty.edu/tgn/7226341> a lawd:Place ;
+  rdfs:label "Gaïdhouronísion" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/580060> ;
+  .
+
 <http://vocab.getty.edu/tgn/7228505> a lawd:Place ;
   rdfs:label "Lévka" ;
   skos:closeMatch <http://pleiades.stoa.org/places/570264> ;
@@ -8339,6 +8549,16 @@
 <http://vocab.getty.edu/tgn/7229648> a lawd:Place ;
   rdfs:label "Kastrí" ;
   skos:closeMatch <http://pleiades.stoa.org/places/540906> ;
+  .
+
+<http://vocab.getty.edu/tgn/7230421> a lawd:Place ;
+  rdfs:label "Kríti" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/589748> ;
+  .
+
+<http://vocab.getty.edu/tgn/7232318> a lawd:Place ;
+  rdfs:label "Lefkí" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/589910> ;
   .
 
 <http://vocab.getty.edu/tgn/7232917> a lawd:Place ;
@@ -8384,6 +8604,16 @@
 <http://vocab.getty.edu/tgn/7235525> a lawd:Place ;
   rdfs:label "Philippi" ;
   skos:closeMatch <http://pleiades.stoa.org/places/501482> ;
+  .
+
+<http://vocab.getty.edu/tgn/7235881> a lawd:Place ;
+  rdfs:label "Velina" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/570150> ;
+  .
+
+<http://vocab.getty.edu/tgn/7236390> a lawd:Place ;
+  rdfs:label "Epitálion" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/570231> ;
   .
 
 <http://vocab.getty.edu/tgn/7237115> a lawd:Place ;
@@ -8501,6 +8731,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/236684> ;
   .
 
+<http://vocab.getty.edu/tgn/7303780> a lawd:Place ;
+  rdfs:label "Osma" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/246721> ;
+  .
+
 <http://vocab.getty.edu/tgn/7326414> a lawd:Place ;
   rdfs:label "Pertusa" ;
   skos:closeMatch <http://pleiades.stoa.org/places/246561> ;
@@ -8524,6 +8759,11 @@
 <http://vocab.getty.edu/tgn/7453985> a lawd:Place ;
   rdfs:label "Chichester" ;
   skos:closeMatch <http://pleiades.stoa.org/places/79622> ;
+  .
+
+<http://vocab.getty.edu/tgn/7461392> a lawd:Place ;
+  rdfs:label "Llanfair-ar-y-bryn" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/79287> ;
   .
 
 <http://vocab.getty.edu/tgn/7463814> a lawd:Place ;
@@ -8579,11 +8819,6 @@
 <http://vocab.getty.edu/tgn/7524021> a lawd:Place ;
   rdfs:label "Athribis" ;
   skos:closeMatch <http://pleiades.stoa.org/places/756538> ;
-  .
-
-<http://vocab.getty.edu/tgn/7525635> a lawd:Place ;
-  rdfs:label "Aphroditopolis" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/736889> ;
   .
 
 <http://vocab.getty.edu/tgn/7525636> a lawd:Place ;
@@ -8966,6 +9201,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/140499> ;
   .
 
+<http://vocab.getty.edu/tgn/7617458> a lawd:Place ;
+  rdfs:label "Pithiviers-le-Vieil" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/109248> ;
+  .
+
 <http://vocab.getty.edu/tgn/7617981> a lawd:Place ;
   rdfs:label "Pommiers" ;
   skos:closeMatch <http://pleiades.stoa.org/places/109216> ;
@@ -9346,11 +9586,6 @@
   skos:closeMatch <http://pleiades.stoa.org/places/658381> ;
   .
 
-<http://vocab.getty.edu/tgn/7676514> a lawd:Place ;
-  rdfs:label "Physkos" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/599888> ;
-  .
-
 <http://vocab.getty.edu/tgn/7676521> a lawd:Place ;
   rdfs:label "Amos" ;
   skos:closeMatch <http://pleiades.stoa.org/places/599485> ;
@@ -9429,6 +9664,11 @@
 <http://vocab.getty.edu/tgn/7684261> a lawd:Place ;
   rdfs:label "Tarsus" ;
   skos:closeMatch <http://pleiades.stoa.org/places/648789> ;
+  .
+
+<http://vocab.getty.edu/tgn/7684678> a lawd:Place ;
+  rdfs:label "Boğazkale" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/283602441> ;
   .
 
 <http://vocab.getty.edu/tgn/7685253> a lawd:Place ;
@@ -9574,11 +9814,6 @@
 <http://vocab.getty.edu/tgn/7700338> a lawd:Place ;
   rdfs:label "Tirebolu" ;
   skos:closeMatch <http://pleiades.stoa.org/places/857361> ;
-  .
-
-<http://vocab.getty.edu/tgn/7701060> a lawd:Place ;
-  rdfs:label "Yassıhüyük" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/609393> ;
   .
 
 <http://vocab.getty.edu/tgn/7702331> a lawd:Place ;
@@ -9736,6 +9971,11 @@
   skos:closeMatch <http://pleiades.stoa.org/places/628923> ;
   .
 
+<http://vocab.getty.edu/tgn/7720044> a lawd:Place ;
+  rdfs:label "İldır" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/550535> ;
+  .
+
 <http://vocab.getty.edu/tgn/7720908> a lawd:Place ;
   rdfs:label "Gümüşkent" ;
   skos:closeMatch <http://pleiades.stoa.org/places/619253> ;
@@ -9749,11 +9989,6 @@
 <http://vocab.getty.edu/tgn/7722759> a lawd:Place ;
   rdfs:label "Gökçe" ;
   skos:closeMatch <http://pleiades.stoa.org/places/501439> ;
-  .
-
-<http://vocab.getty.edu/tgn/7722815> a lawd:Place ;
-  rdfs:label "Hisarönü" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/845084> ;
   .
 
 <http://vocab.getty.edu/tgn/7722816> a lawd:Place ;
@@ -9789,11 +10024,6 @@
 <http://vocab.getty.edu/tgn/7724712> a lawd:Place ;
   rdfs:label "Gaziköy" ;
   skos:closeMatch <http://pleiades.stoa.org/places/511415> ;
-  .
-
-<http://vocab.getty.edu/tgn/7725013> a lawd:Place ;
-  rdfs:label "Ermenek" ;
-  skos:closeMatch <http://pleiades.stoa.org/places/648635> ;
   .
 
 <http://vocab.getty.edu/tgn/7725072> a lawd:Place ;
@@ -9921,6 +10151,56 @@
   skos:closeMatch <http://pleiades.stoa.org/places/786017> ;
   .
 
+<http://vocab.getty.edu/tgn/7872184> a lawd:Place ;
+  rdfs:label "Lefkosía" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707558> ;
+  .
+
+<http://vocab.getty.edu/tgn/7874171> a lawd:Place ;
+  rdfs:label "Tremithous" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707636> ;
+  .
+
+<http://vocab.getty.edu/tgn/7879512> a lawd:Place ;
+  rdfs:label "Makaria" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707570> ;
+  .
+
+<http://vocab.getty.edu/tgn/7879746> a lawd:Place ;
+  rdfs:label "Keryneia" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707531> ;
+  .
+
+<http://vocab.getty.edu/tgn/7879836> a lawd:Place ;
+  rdfs:label "Lapithos" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707555> ;
+  .
+
+<http://vocab.getty.edu/tgn/7881010> a lawd:Place ;
+  rdfs:label "Lemesós" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707587> ;
+  .
+
+<http://vocab.getty.edu/tgn/7881026> a lawd:Place ;
+  rdfs:label "Salina" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707534> ;
+  .
+
+<http://vocab.getty.edu/tgn/7881265> a lawd:Place ;
+  rdfs:label "Kítion" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707534> ;
+  .
+
+<http://vocab.getty.edu/tgn/7881415> a lawd:Place ;
+  rdfs:label "Geronissos" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707511> ;
+  .
+
+<http://vocab.getty.edu/tgn/7882183> a lawd:Place ;
+  rdfs:label "Konstantia" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/707617> ;
+  .
+
 <http://vocab.getty.edu/tgn/7902178> a lawd:Place ;
   rdfs:label "Medma" ;
   skos:closeMatch <http://pleiades.stoa.org/places/452375> ;
@@ -9959,5 +10239,35 @@
 <http://vocab.getty.edu/tgn/8060257> a lawd:Place ;
   rdfs:label "Abd-el-Melek" ;
   skos:closeMatch <http://pleiades.stoa.org/places/324843> ;
+  .
+
+<http://vocab.getty.edu/tgn/8697455> a lawd:Place ;
+  rdfs:label "Banasa" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/275599> ;
+  .
+
+<http://vocab.getty.edu/tgn/8697457> a lawd:Place ;
+  rdfs:label "Kadıkalesi" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/599490> ;
+  .
+
+<http://vocab.getty.edu/tgn/8697469> a lawd:Place ;
+  rdfs:label "Burnum" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/197184> ;
+  .
+
+<http://vocab.getty.edu/tgn/8697470> a lawd:Place ;
+  rdfs:label "Suasa" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/413324> ;
+  .
+
+<http://vocab.getty.edu/tgn/8697542> a lawd:Place ;
+  rdfs:label "Dispilio" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/471781651> ;
+  .
+
+<http://vocab.getty.edu/tgn/8697546> a lawd:Place ;
+  rdfs:label "Gadara" ;
+  skos:closeMatch <http://pleiades.stoa.org/places/678142> ;
   .
 
