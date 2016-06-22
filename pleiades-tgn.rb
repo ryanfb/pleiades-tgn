@@ -6,7 +6,7 @@ Encoding.default_internal = Encoding::UTF_8
 require 'json'
 require 'csv'
 
-tgn_labels_nt, tgn_geometries_nt, places_csv, names_csv = ARGV
+tgn_labels_nt, tgn_parents_nt, tgn_geometries_nt, places_csv, names_csv = ARGV
 
 distance_threshold = 8.0
 
@@ -29,17 +29,19 @@ $stderr.puts "Parsing Pleiades places..."
 CSV.foreach(places_csv, :headers => true) do |row|
   places[row["id"]] = row.to_hash
 end
+$stderr.puts places.keys.length
 
 $stderr.puts "Parsing Pleiades names..."
 CSV.foreach(names_csv, :headers => true) do |row|
-  unless places[row["pid"]].nil?
-    places[row["pid"]]["names"] ||= []
-    places[row["pid"]]["names"] << row.to_hash
+  place_id = row["pid"].split('/')[2]
+  unless places[place_id].nil?
+    places[place_id]["names"] ||= []
+    places[place_id]["names"] << row.to_hash
   end
 
   [row["title"], row["nameAttested"], row["nameTransliterated"]].each do |name|
     pleiades_names[name] ||= []
-    pleiades_names[name] << row["pid"] unless (pleiades_names[name].include?(row["pid"]) || row["pid"].nil?)
+    pleiades_names[name] << place_id unless (pleiades_names[name].include?(place_id) || place_id.nil?)
   end
 end
 $stderr.puts pleiades_names.keys.length
@@ -59,6 +61,21 @@ File.open(tgn_labels_nt).each do |line|
   end
 end
 $stderr.puts tgn_labels.keys.length
+
+tgn_parents = {}
+
+$stderr.puts "Parsing TGN parents..."
+File.open(tgn_parents_nt).each do |line|
+  subject = line.split(' ')[0]
+  predicate = line.split(' ')[1]
+  object = line.split(' ')[2..-2].join(' ')
+  tgn_parent = object #[/"(.+)"/,1]
+  unless tgn_parent.nil?
+    tgn_parent.gsub!(/\\u(.{4})/) {|m| [$1.to_i(16)].pack('U')}
+    tgn_parents[subject] = tgn_parent
+  end
+end
+$stderr.puts tgn_parents.keys.length
 
 tgn_geometries = {}
 
@@ -85,7 +102,7 @@ pleiades_names.each do |pleiades_name, pleiades_ids|
           pleiades_ids.each do |pleiades_id|
             unless places[pleiades_id].nil? || geometry.nil?
               if haversine_distance(geometry[:latitude], geometry[:longitude], places[pleiades_id]["reprLat"].to_f, places[pleiades_id]["reprLong"].to_f) <= distance_threshold
-                puts [tgn_id.tr('<>',''),"http://pleiades.stoa.org/places/#{pleiades_id}",tgn_first_label[tgn_id]].join(',')
+                puts [tgn_id.tr('<>',''),"http://pleiades.stoa.org/places/#{pleiades_id}",tgn_first_label[tgn_id],tgn_parents[tgn_id]].join(',')
               end
             end
           end
